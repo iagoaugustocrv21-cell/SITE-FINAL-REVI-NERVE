@@ -1,0 +1,49 @@
+=========================================================
+ AULA - 30/06/26 | Produto de Neuropatia: REVINERVE
+=========================================================
+
+TEMPO DO PITCH: 44m06s
+PAGINA NO AR:   convertpeak.site/offer-page
+
+---------------------------------------------------------
+ LINKS UTEIS
+---------------------------------------------------------
+Hostinger:
+https://www.hostinger.com/br/cart?product=hosting%3Ahostinger_premium&period=12&referral_type=cart_link&REFERRALCODE=MXHJACK86NYO&referral_id=019f1a84-b090-7375-9063-980d79027a02
+
+VTurb:
+https://www.vturb.com/pt-BR
+---------------------------------------------------------
+ ARQUIVOS (subir TODOS na Hostinger, em public_html)
+---------------------------------------------------------
+index.html      -> a pagina
+images/         -> as 10 imagens (subir a pasta inteira!)
+js/             -> motor do delay/timers (subir a pasta inteira!)
+
+---------------------------------------------------------
+ O QUE MUDAR (abrir index.html -> Ctrl+F -> digitar a palavra)
+---------------------------------------------------------
+1) EMBED DO VTURB   -> pesquisar:  EMBED DO VTURB
+   (troca tudo ate "FIM DO EMBED DO VTURB")
+
+2) TEMPO DO PITCH   -> pesquisar:  TEMPO_DO_PITCH
+   (muda o valor "44:06" = minutos:segundos)
+   
+3) LINKS DE CHECKOUT -> sao 6 botoes (a oferta aparece 2x, 2 por pote):
+   - pote de 2 -> pesquisar:  CHECKOUT-2-POTES   (aparece 2x, troque os 2)
+   - pote de 6 -> pesquisar:  CHECKOUT-6-POTES   (aparece 2x, troque os 2)
+   - pote de 3 -> pesquisar:  CHECKOUT-3-POTES   (aparece 2x, troque os 2)
+
+   * atalho: pesquisar  BOTAO DE CHECKOUT  pula entre TODOS os 6 botoes.
+  
+4) IMAGENS          -> pesquisar:  images/
+   (cada Enter pula pra proxima imagem)
+   * mais facil: troca o arquivo dentro da pasta images/ mantendo o
+     MESMO nome - nao precisa editar o codigo.
+
+---------------------------------------------------------
+ FORÇAR OS POTES A ABRIREM (Inspecionar -> no Console)
+---------------------------------------------------------
+document.body.classList.add("pitch-liberado");
+
+(pra esconder de novo: troca "add" por "remove")
